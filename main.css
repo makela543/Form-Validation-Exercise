@@ -11,6 +11,7 @@ input {
     border-radius: 4px;
     border: 1px solid gray;
     width: 250px;
+    margin-left: 10px;
 }
 
 
@@ -19,7 +20,7 @@ label {
     float: left;
     width: 200px;
     position: relative;
-    top: 8px;
+    top: 9px;
     text-align: right;
 }
 
@@ -30,4 +31,16 @@ label {
 
 .form-element {
     margin-bottom: 10px;
+}
+
+#submitButton {
+    position: relative;
+    left: 207px;
+    height: 40px;
+    background-color: white;
+}
+
+#submitButton:hover {
+    background-color: steelblue;
+    color: white;
 }
