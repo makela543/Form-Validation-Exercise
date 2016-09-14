@@ -44,3 +44,22 @@ label {
     background-color: steelblue;
     color: white;
 }
+
+#errorMessage {
+    left: 205px;
+    font-size: 80%;
+    color: firebrick;
+}
+
+#success {
+    left: 233px;
+    color: forestgreen;
+    display: none;
+}
+
+.message {
+    position: relative;
+    float: left;
+    font-size: 80%;
+    font-style: italic;
+}
